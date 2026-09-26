@@ -1,0 +1,37 @@
+{
+  "name": "세금 떼어두기",
+  "short_name": "세금떼어두기",
+  "description": "들어온 돈과 쓴 돈을 적으면 앞으로 낼 부가세·종합소득세 예상액과 지금 떼어둘 돈을 계산해 드려요.",
+  "lang": "ko",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#E6EAE5",
+  "theme_color": "#152F2C",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
