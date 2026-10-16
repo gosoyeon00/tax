@@ -7,6 +7,7 @@ https://taxaside.co.kr — 1인 사업자·프리랜서·방송인이 들어온 
 - GitHub Pages가 `main` 브랜치의 파일을 그대로 올립니다. `main`에 올리면 1~2분 뒤 사이트에 반영됩니다.
 - `CNAME`이 `taxaside.co.kr`을 가리킵니다. 지우면 주소 연결이 끊깁니다.
 - 앱은 `index.html` 한 파일입니다(빌드된 결과물). 고칠 때 쓰는 원본 코드는 이 저장소에 없습니다.
+- `lib/xlsx-0.20.3.full.min.js`: 카드 내역(xlsx·csv)을 읽는 SheetJS 0.20.3. 2026-10-16 cdn.sheetjs.com에서 받은 원본입니다. sha384-EnyY0/GSHQGSxSgMwaIPzSESbqoOLSexfnSMN2AP+39Ckmn92stwABZynq1JyzdT
 
 ## 빌드된 파일에 직접 고친 내용
 
@@ -20,6 +21,7 @@ https://taxaside.co.kr — 1인 사업자·프리랜서·방송인이 들어온 
 | 2026-10-16 | 기록 탭 입력 폼 | 날짜 칸에 `aria-label="날짜"`, 증빙 선택 칸에 `aria-label="증빙"` |
 | 2026-10-16 | 손익 탭의 가로 스크롤 표 2개 | `tabIndex: 0`, `role="region"`, `aria-label` "월별 한눈에 표" / "항목별 월 표" |
 | 2026-10-16 | `index.html`의 `#root` 안 로딩 화면 | 앱 이름·소개 문구 추가, `<noscript>` 안내 추가 (검색엔진용) |
+| 2026-10-16 | 카드 내역 불러오기 | 표 읽는 도구를 외부 CDN(cdn.sheetjs.com, 실패 시 cdnjs의 0.18.5) 대신 이 저장소의 `/lib/xlsx-0.20.3.full.min.js`에서 불러옴. 옛 버전으로 넘어가는 부분 삭제 |
 
 ## 매년 할 일
 
