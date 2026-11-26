@@ -6,14 +6,14 @@ https://taxaside.co.kr — 1인 사업자·프리랜서·방송인이 들어온 
 
 - GitHub Pages가 `main` 브랜치의 파일을 그대로 올립니다. `main`에 올리면 1~2분 뒤 사이트에 반영됩니다.
 - `CNAME`이 `taxaside.co.kr`을 가리킵니다. 지우면 주소 연결이 끊깁니다.
-- 앱은 `index.html` 한 파일입니다(빌드된 결과물). 고칠 때 쓰는 원본 코드는 이 저장소에 없습니다.
+- 앱은 `index.html` 한 파일입니다(빌드된 결과물). 원본 코드와 빌드·테스트 도구는 **비공개 저장소 `gosoyeon00/taxaside-src`**에 있고, 거기서 빌드한 파일을 여기에 올립니다(2026-11-26부터).
 - `lib/xlsx-0.20.3.full.min.js`: 카드 내역(xlsx·csv)을 읽는 SheetJS 0.20.3. 2026-10-16 cdn.sheetjs.com에서 받은 원본입니다. sha384-EnyY0/GSHQGSxSgMwaIPzSESbqoOLSexfnSMN2AP+39Ckmn92stwABZynq1JyzdT
 
 ## 빌드된 파일에 직접 고친 내용
 
 2026-10-31 빌드부터 그전에 `index.html`에 직접 고쳤던 8건(머리 z-index·h1·글씨 대비, 입력 칸 이름표, 표 영역 이름표, 로딩 화면·noscript, `/lib`의 표 읽는 도구, `login_from`)이 모두 원본에 들어가 있습니다.
 
-앞으로 `index.html`을 직접 고쳤다면 원본에서 다시 만들 때 빠지지 않도록 아래 표에 적어 주세요.
+`index.html`은 직접 고치지 말고 `taxaside-src`의 원본을 고쳐 다시 빌드해 주세요. 급하게 직접 고쳤다면 원본에 옮길 수 있도록 아래 표에 적어 주세요.
 
 | 날짜 | 위치 | 내용 |
 |---|---|---|
